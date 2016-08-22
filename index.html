@@ -1,0 +1,29 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+	<div id="countdown_container">
+	</div>
+</body>
+
+<script id="countdown_template" type="text/html">
+	<div class="countdown" data-release-frequency="{{releaseFrequency}}" data-base-freeze-date="{{baseFreezeDate}}" data-base-release-date="{{baseReleaseDate}}">
+		<div>
+		<h2 class="app_name">{{appName}}</h2>
+
+		<span class="label">Code Freeze</span>
+		<span class="days_to_freeze_count"></span>
+
+		<span class="label">Release</span>
+		<span class="days_to_release_count"></span>
+		</div>
+	</div>
+</script>
+
+<script src="mustache.js"></script>
+<script src="qurl.js"></script>
+<script src="countdown.js"></script>
+
+</html>

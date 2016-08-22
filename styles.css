@@ -1,0 +1,36 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	color: white;
+	font-family: Arial;
+}
+
+.countdown {
+	display: table;
+	width: 100%;
+}
+
+.countdown h2 {
+	display: inline;
+	font-size: 350%;
+}
+
+.countdown div {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width: 90%;
+}
+
+.countdown .label {
+	padding-left: 1em;
+	padding-right: 0.2em;
+	color: grey;
+	font-weight: normal;
+}
+
+.countdown span {
+	font-weight: bold;
+	font-size: 220%;
+}
